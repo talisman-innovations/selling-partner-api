@@ -117,8 +117,10 @@ class PatchOperation extends BaseModel implements ModelInterface, ArrayAccess, \
     const OP_ADD = 'add';
     const OP_REPLACE = 'replace';
     const OP_DELETE = 'delete';
-    
-    
+    const OP_MERGE = 'merge';
+
+
+
 
     /**
      * Gets allowable values of the enum
@@ -131,6 +133,7 @@ class PatchOperation extends BaseModel implements ModelInterface, ArrayAccess, \
             self::OP_ADD,
             self::OP_REPLACE,
             self::OP_DELETE,
+            self::OP_MERGE,
         ];
 
         // This is necessary because Amazon does not consistently capitalize their
