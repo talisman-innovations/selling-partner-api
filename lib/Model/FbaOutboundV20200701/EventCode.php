@@ -80,6 +80,7 @@ class EventCode
     const _417 = 'EVENT_417';
     const _418 = 'EVENT_418';
     const _419 = 'EVENT_419';
+    const _497 = 'EVENT_497';
     const _636 = 'EVENT_636';
     const _637 = 'EVENT_637';
     
@@ -125,6 +126,7 @@ class EventCode
             self::_417,
             self::_418,
             self::_419,
+            self::_497,
             self::_636,
             self::_637,
         ];
