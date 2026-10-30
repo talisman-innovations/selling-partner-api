@@ -74,6 +74,7 @@ class AdditionalLocationInfo
     const RECEPTIONIST = 'RECEPTIONIST';
     const RECEIVER = 'RECEIVER';
     const SECURE_LOCATION = 'SECURE_LOCATION';
+    const SHED = 'SHED';
     const SIDE_DOOR = 'SIDE_DOOR';
     
     /**
@@ -112,6 +113,7 @@ class AdditionalLocationInfo
             self::RECEPTIONIST,
             self::RECEIVER,
             self::SECURE_LOCATION,
+            self::SHED,
             self::SIDE_DOOR,
         ];
         // This is necessary because Amazon does not consistently capitalize their
