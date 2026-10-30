@@ -50,6 +50,7 @@ class AdditionalLocationInfo
     const BACK_PORCH = 'BACK_PORCH';
     const BEHIND_WHEELIE_BIN = 'BEHIND_WHEELIE_BIN';
     const CARPORT = 'CARPORT';
+    const CUSTOMER = 'CUSTOMER';
     const CUSTOMER_PICKUP = 'CUSTOMER_PICKUP';
     const DECK = 'DECK';
     const DOOR_PERSON = 'DOOR_PERSON';
@@ -90,6 +91,7 @@ class AdditionalLocationInfo
             self::BACK_PORCH,
             self::BEHIND_WHEELIE_BIN,
             self::CARPORT,
+            self::CUSTOMER,
             self::CUSTOMER_PICKUP,
             self::DECK,
             self::DOOR_PERSON,
