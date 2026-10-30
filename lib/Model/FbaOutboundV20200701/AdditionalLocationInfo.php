@@ -46,6 +46,7 @@ class AdditionalLocationInfo
      * Possible values of this enum
      */
     const AS_INSTRUCTED = 'AS_INSTRUCTED';
+    const BACK_DOOR_PORCH = 'BACK_DOOR/PORCH';
     const BACK_PORCH = 'BACK_PORCH';
     const BEHIND_WHEELIE_BIN = 'BEHIND_WHEELIE_BIN';
     const CARPORT = 'CARPORT';
@@ -85,6 +86,7 @@ class AdditionalLocationInfo
     {
         $baseVals = [
             self::AS_INSTRUCTED,
+            self::BACK_DOOR_PORCH,
             self::BACK_PORCH,
             self::BEHIND_WHEELIE_BIN,
             self::CARPORT,
