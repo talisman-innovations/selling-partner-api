@@ -58,6 +58,7 @@ class AdditionalLocationInfo
     const FRONT_DOOR = 'FRONT_DOOR';
     const FRONT_DOOR_PORCH = 'FRONT_DOOR/PORCH';
     const GARAGE = 'GARAGE';
+    const GARDEN = 'GARDEN';
     const GUARD = 'GUARD';
     const IN_AT_MAILBOX = 'IN/AT_MAILBOX';
     const MAIL_ROOM = 'MAIL_ROOM';
@@ -99,6 +100,7 @@ class AdditionalLocationInfo
             self::FRONT_DOOR,
             self::FRONT_DOOR_PORCH,
             self::GARAGE,
+            self::GARDEN,
             self::GUARD,
             self::IN_AT_MAILBOX,
             self::MAIL_ROOM,
