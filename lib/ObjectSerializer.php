@@ -83,7 +83,7 @@ class ObjectSerializer
                 $enumVal = strtoupper((string)$data->value);
                 if (!in_array($enumVal, $allowedEnumTypes, true)) {
                     $imploded = implode("', '", $allowedEnumTypes);
-                    throw new \InvalidArgumentException("Invalid value for enum '$type', must be one of: '$imploded'");
+                    throw new \InvalidArgumentException("Invalid value '$enumVal' for enum '$type', must be one of: '$imploded'");
                 }
 
                 return self::sanitizeForSerialization($data->value);
@@ -357,7 +357,7 @@ class ObjectSerializer
         } elseif (method_exists($class, 'getAllowableEnumValues')) {
             if (!in_array($data, $class::getAllowableEnumValues(), true)) {
                 $imploded = implode("', '", $class::getAllowableEnumValues());
-                throw new \InvalidArgumentException("Invalid value for enum '$class', must be one of: '$imploded'");
+                throw new \InvalidArgumentException("Invalid value '$data' for enum '$class', must be one of: '$imploded'");
             }
             return new $class($data);
         } else {
