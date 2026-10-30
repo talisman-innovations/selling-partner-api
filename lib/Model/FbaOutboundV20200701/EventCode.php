@@ -86,6 +86,7 @@ class EventCode
     const _497 = 'EVENT_497';
     const _636 = 'EVENT_636';
     const _637 = 'EVENT_637';
+    const _650 = 'EVENT_650';
     const _801 = 'EVENT_801';
     const _804 = 'EVENT_804';
     
@@ -137,6 +138,7 @@ class EventCode
             self::_497,
             self::_636,
             self::_637,
+            self::_650,
             self::_801,
             self::_804,
         ];
