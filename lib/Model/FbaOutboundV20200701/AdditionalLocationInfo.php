@@ -47,6 +47,7 @@ class AdditionalLocationInfo
      */
     const AS_INSTRUCTED = 'AS_INSTRUCTED';
     const BACK_PORCH = 'BACK_PORCH';
+    const BEHIND_WHEELIE_BIN = 'BEHIND_WHEELIE_BIN';
     const CARPORT = 'CARPORT';
     const CUSTOMER_PICKUP = 'CUSTOMER_PICKUP';
     const DECK = 'DECK';
@@ -84,6 +85,7 @@ class AdditionalLocationInfo
         $baseVals = [
             self::AS_INSTRUCTED,
             self::BACK_PORCH,
+            self::BEHIND_WHEELIE_BIN,
             self::CARPORT,
             self::CUSTOMER_PICKUP,
             self::DECK,
