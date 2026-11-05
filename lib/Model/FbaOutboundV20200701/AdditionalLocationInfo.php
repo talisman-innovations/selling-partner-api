@@ -45,22 +45,30 @@ class AdditionalLocationInfo
     /**
      * Possible values of this enum
      */
+    const AMAZON_LOCKER = 'AMAZON_LOCKER';
     const AS_INSTRUCTED = 'AS_INSTRUCTED';
+    const AS_INSTRUCTED_SPACE = 'AS INSTRUCTED';
     const BACK_DOOR_PORCH = 'BACK_DOOR/PORCH';
     const BACK_PORCH = 'BACK_PORCH';
     const BEHIND_WHEELIE_BIN = 'BEHIND_WHEELIE_BIN';
     const CARPORT = 'CARPORT';
+    const CONVENIENCE_STORE = 'CONVENIENCE_STORE';
     const CUSTOMER = 'CUSTOMER';
     const CUSTOMER_PICKUP = 'CUSTOMER_PICKUP';
     const DECK = 'DECK';
     const DOOR_PERSON = 'DOOR_PERSON';
     const FRONT_DESK = 'FRONT_DESK';
+    const FRONT_DESK_RECEPTION_MAIL_ROOM = 'FRONT DESK/RECEPTION/MAIL ROOM';
     const FRONT_DOOR = 'FRONT_DOOR';
     const FRONT_DOOR_PORCH = 'FRONT_DOOR/PORCH';
+    const FRONT_DOOR_PORCH_SPACE = 'FRONT DOOR/PORCH';
     const GARAGE = 'GARAGE';
+    const GARAGE_OTHER_DOOR_OTHER_LOC = 'GARAGE/OTHER DOOR/OTHER LOC';
     const GARDEN = 'GARDEN';
     const GUARD = 'GUARD';
     const IN_AT_MAILBOX = 'IN/AT_MAILBOX';
+    const IN_AT_MAILBOX_SPACE = 'IN/AT MAILBOX';
+    const LEFT_WITH_INDIVIDUAL = 'LEFT WITH INDIVIDUAL';
     const MAIL_ROOM = 'MAIL_ROOM';
     const MAIL_SLOT = 'MAIL_SLOT';
     const MAILBOX = 'MAILBOX';
@@ -71,7 +79,10 @@ class AdditionalLocationInfo
     const NEIGHBOR = 'NEIGHBOR';
     const OFFICE = 'OFFICE';
     const OUTBUILDING = 'OUTBUILDING';
+    const PARCEL_LOCKER = 'PARCEL LOCKER';
     const PATIO = 'PATIO';
+    const PO_BOX = 'PO_BOX';
+    const PO_BOX_SPACE = 'PO BOX';
     const PORCH = 'PORCH';
     const REAR_DOOR = 'REAR_DOOR';
     const RECEPTIONIST = 'RECEPTIONIST';
@@ -87,22 +98,30 @@ class AdditionalLocationInfo
     public static function getAllowableEnumValues()
     {
         $baseVals = [
+            self::AMAZON_LOCKER,
             self::AS_INSTRUCTED,
+            self::AS_INSTRUCTED_SPACE,
             self::BACK_DOOR_PORCH,
             self::BACK_PORCH,
             self::BEHIND_WHEELIE_BIN,
             self::CARPORT,
+            self::CONVENIENCE_STORE,
             self::CUSTOMER,
             self::CUSTOMER_PICKUP,
             self::DECK,
             self::DOOR_PERSON,
             self::FRONT_DESK,
+            self::FRONT_DESK_RECEPTION_MAIL_ROOM,
             self::FRONT_DOOR,
             self::FRONT_DOOR_PORCH,
+            self::FRONT_DOOR_PORCH_SPACE,
             self::GARAGE,
+            self::GARAGE_OTHER_DOOR_OTHER_LOC,
             self::GARDEN,
             self::GUARD,
             self::IN_AT_MAILBOX,
+            self::IN_AT_MAILBOX_SPACE,
+            self::LEFT_WITH_INDIVIDUAL,
             self::MAIL_ROOM,
             self::MAIL_SLOT,
             self::MAILBOX,
@@ -113,7 +132,10 @@ class AdditionalLocationInfo
             self::NEIGHBOR,
             self::OFFICE,
             self::OUTBUILDING,
+            self::PARCEL_LOCKER,
             self::PATIO,
+            self::PO_BOX,
+            self::PO_BOX_SPACE,
             self::PORCH,
             self::REAR_DOOR,
             self::RECEPTIONIST,

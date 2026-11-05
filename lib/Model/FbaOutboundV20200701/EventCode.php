@@ -47,21 +47,38 @@ class EventCode
      */
     const _101 = 'EVENT_101';
     const _102 = 'EVENT_102';
+    const _103 = 'EVENT_103';
     const _201 = 'EVENT_201';
     const _202 = 'EVENT_202';
     const _203 = 'EVENT_203';
     const _204 = 'EVENT_204';
     const _205 = 'EVENT_205';
     const _206 = 'EVENT_206';
+    const _208 = 'EVENT_208';
     const _212 = 'EVENT_212';
+    const _252 = 'EVENT_252';
+    const _258 = 'EVENT_258';
     const _301 = 'EVENT_301';
     const _302 = 'EVENT_302';
+    const _303 = 'EVENT_303';
     const _304 = 'EVENT_304';
     const _306 = 'EVENT_306';
     const _307 = 'EVENT_307';
     const _308 = 'EVENT_308';
     const _309 = 'EVENT_309';
     const _310 = 'EVENT_310';
+    const _320 = 'EVENT_320';
+    const _321 = 'EVENT_321';
+    const _322 = 'EVENT_322';
+    const _329 = 'EVENT_329';
+    const _337 = 'EVENT_337';
+    const _338 = 'EVENT_338';
+    const _350 = 'EVENT_350';
+    const _351 = 'EVENT_351';
+    const _390 = 'EVENT_390';
+    const _391 = 'EVENT_391';
+    const _392 = 'EVENT_392';
+    const _393 = 'EVENT_393';
     const _401 = 'EVENT_401';
     const _402 = 'EVENT_402';
     const _403 = 'EVENT_403';
@@ -80,16 +97,48 @@ class EventCode
     const _417 = 'EVENT_417';
     const _418 = 'EVENT_418';
     const _419 = 'EVENT_419';
+    const _420 = 'EVENT_420';
+    const _422 = 'EVENT_422';
     const _423 = 'EVENT_423';
+    const _425 = 'EVENT_425';
+    const _426 = 'EVENT_426';
+    const _427 = 'EVENT_427';
+    const _428 = 'EVENT_428';
+    const _429 = 'EVENT_429';
+    const _430 = 'EVENT_430';
     const _432 = 'EVENT_432';
+    const _433 = 'EVENT_433';
+    const _434 = 'EVENT_434';
+    const _436 = 'EVENT_436';
+    const _438 = 'EVENT_438';
+    const _440 = 'EVENT_440';
+    const _441 = 'EVENT_441';
     const _442 = 'EVENT_442';
+    const _461 = 'EVENT_461';
+    const _473 = 'EVENT_473';
     const _476 = 'EVENT_476';
+    const _482 = 'EVENT_482';
+    const _492 = 'EVENT_492';
+    const _493 = 'EVENT_493';
+    const _494 = 'EVENT_494';
+    const _495 = 'EVENT_495';
+    const _496 = 'EVENT_496';
     const _497 = 'EVENT_497';
+    const _498 = 'EVENT_498';
+    const _499 = 'EVENT_499';
     const _636 = 'EVENT_636';
     const _637 = 'EVENT_637';
     const _650 = 'EVENT_650';
+    const _670 = 'EVENT_670';
+    const _760 = 'EVENT_760';
+    const _761 = 'EVENT_761';
+    const _762 = 'EVENT_762';
+    const _763 = 'EVENT_763';
+    const _764 = 'EVENT_764';
     const _801 = 'EVENT_801';
     const _804 = 'EVENT_804';
+    const _820 = 'EVENT_820';
+    const _825 = 'EVENT_825';
     
     /**
      * Gets allowable values of the enum
@@ -100,21 +149,38 @@ class EventCode
         $baseVals = [
             self::_101,
             self::_102,
+            self::_103,
             self::_201,
             self::_202,
             self::_203,
             self::_204,
             self::_205,
             self::_206,
+            self::_208,
             self::_212,
+            self::_252,
+            self::_258,
             self::_301,
             self::_302,
+            self::_303,
             self::_304,
             self::_306,
             self::_307,
             self::_308,
             self::_309,
             self::_310,
+            self::_320,
+            self::_321,
+            self::_322,
+            self::_329,
+            self::_337,
+            self::_338,
+            self::_350,
+            self::_351,
+            self::_390,
+            self::_391,
+            self::_392,
+            self::_393,
             self::_401,
             self::_402,
             self::_403,
@@ -133,16 +199,48 @@ class EventCode
             self::_417,
             self::_418,
             self::_419,
+            self::_420,
+            self::_422,
             self::_423,
+            self::_425,
+            self::_426,
+            self::_427,
+            self::_428,
+            self::_429,
+            self::_430,
             self::_432,
+            self::_433,
+            self::_434,
+            self::_436,
+            self::_438,
+            self::_440,
+            self::_441,
             self::_442,
+            self::_461,
+            self::_473,
             self::_476,
+            self::_482,
+            self::_492,
+            self::_493,
+            self::_494,
+            self::_495,
+            self::_496,
             self::_497,
+            self::_498,
+            self::_499,
             self::_636,
             self::_637,
             self::_650,
+            self::_670,
+            self::_760,
+            self::_761,
+            self::_762,
+            self::_763,
+            self::_764,
             self::_801,
             self::_804,
+            self::_820,
+            self::_825,
         ];
         // This is necessary because Amazon does not consistently capitalize their
         // enum values, so we do case-insensitive enum value validation in ObjectSerializer
